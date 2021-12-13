@@ -15,7 +15,7 @@
     * [GitBash](Git/GitBash.md)
     * [Sourcetree](Git/Sourcetree.md)
     * [Gitbook](Git/Gitbook.md)
-* [Linux](Linux/README.md)
+* [Lx-command](Lx-command/README.md)
     * [alias](Lx-command/alias.md)
     * [awk](Lx-command/awk.md)
     * [basename](Lx-command/basename.md)
