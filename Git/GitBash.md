@@ -2,11 +2,13 @@
  * @Author: Lily
  * @Date: 2021-12-09 14:48:23
  * @LastEditors: Lily
- * @LastEditTime: 2021-12-13 17:33:40
+ * @LastEditTime: 2021-12-14 10:15:26
 -->
 # Git常用命令大全
 参考地址：https://blog.csdn.net/dengsilinming/article/details/8000622
+
 Git 是一个很强大的分布式版本控制系统。它不但适用于管理大型开源软件的源代码，管理私人的文档和源代码也有很多优势
+
 # git 常用操作命令：
 1) 远程仓库相关命令
 检出仓库：$ git clone git://github.com/jquery/jquery.git
