@@ -2,7 +2,7 @@
  * @Author: Lily
  * @Date: 2021-12-09 14:48:23
  * @LastEditors: Lily
- * @LastEditTime: 2021-12-13 17:35:23
+ * @LastEditTime: 2021-12-14 09:51:41
 -->
 # Gitbook
 
@@ -13,11 +13,11 @@
 
 执行命令node -v查看node版本
 
-  node -v
+   node -v
 
 最新版的node在安装时同时也安装了npm,执行npm -v查看npm版本
 
-  npm -v
+   npm -v
 
 # 修改全局依赖包下载路径
 
@@ -27,8 +27,8 @@
 
 2.打开cmd窗口命令，输入
 
-  npm config set prefix "安装路径\node_global"
-  npm config set cache "安装路径\node_cache"
+   npm config set prefix "安装路径\node_global"
+   npm config set cache "安装路径\node_cache"
 
 1.设置环境变量：我的电脑”-右键-“属性”-“高级系统设置”-“高级”-“环境变量”。
 
@@ -38,17 +38,17 @@
 
 4.配置完后，安装个module测试下，我们就安装最常用的express模块，cmd输入命令（需要管理运行）：
 
-  npm install express -g     # -g是全局安装的意思
+   npm install express -g     # -g是全局安装的意思
 
 # GitBook本地安装和设置
 
 1.安装gitbook，cmd输入命令（需要管理运行）:
 
-  npm install gitbook-cli -g
+   npm install gitbook-cli -g
 
 2.创建一个文件夹，需要初始化目录，cmd输入命令（需要管理运行）:
 
-  gitbook init
+   gitbook init
 
 3.检查文件，生成README.md 和 SUMMARY.md文件
 
@@ -63,11 +63,11 @@
     * [Pytest](Pytest/README.md)   
 5.重新更新目录（每次更新目录都要重新更新目录），cmd输入命令（需要管理运行） 
 
-  gitbook init
+   gitbook init
 
 6.打开本地服务器
 
-  gitbook serve
+   gitbook serve
 
 7.浏览器访问：http://localhost:4000
 
