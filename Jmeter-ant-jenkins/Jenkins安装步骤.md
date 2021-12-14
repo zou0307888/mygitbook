@@ -2,7 +2,7 @@
  * @Author: Lily
  * @Date: 2021-12-14 10:38:31
  * @LastEditors: Lily
- * @LastEditTime: 2021-12-14 11:39:16
+ * @LastEditTime: 2021-12-14 14:22:39
 -->
 # Jenkins安装步骤
 
@@ -35,3 +35,7 @@
 （1）在Jenkins创建管理中点击Manage Plugins里面，安装 HTML Publisher Plugin和Ant In Workspace
 
 （2）在Jenkins中系统管理-系统设置中，配置jdk 和 Ant
+
+10. jenkins安装完成之后，当下次启动计算机时需要重新启动jenkins相关服务才能访问jenkins。
+
+启动过程：win+r 键打开cmd终端，将工作目录切换到jenkins.war 文件所在的目录，并输入命令： java -jar jenkins.war 即可完成jenkins相关服务的启动。浏览器输入localhost：8080即可访问jenkins
